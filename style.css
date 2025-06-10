@@ -1,27 +1,29 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f0f2f5;
+  background: #000000;
   display: flex;
   justify-content: center;
   padding: 40px;
 }
 
 .container {
-  background: white;
+  background: linear-gradient(135deg, #1e071e, #3a0b3a, #1e071e);
   padding: 20px 30px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  width: 100%;
+  width: 300px;
   max-width: 400px;
+  margin-top: 250px;
 }
 
 h1 {
   text-align: center;
-  color: #333;
+  color: white;
 }
 
 .input-area {
   display: flex;
+  flex-direction: column;
   gap: 10px;
   margin-bottom: 20px;
 }
@@ -34,8 +36,9 @@ input {
 
 button {
   padding: 8px 16px;
+  margin-top: 20px;
   font-size: 16px;
-  background: #007bff;
+  background: #791a78;
   color: white;
   border: none;
   border-radius: 4px;
@@ -43,7 +46,7 @@ button {
 }
 
 button:hover {
-  background: #0056b3;
+  background: #1e071e;
 }
 
 ul {
@@ -68,3 +71,4 @@ li button {
   border-radius: 4px;
   cursor: pointer;
 }
+
